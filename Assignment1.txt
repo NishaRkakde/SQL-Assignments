@@ -1,0 +1,13 @@
+select * from Customer
+
+insert into Customer
+values (6,'Rupesh','Dhote','Berlin','Germany',124567389,132457)
+
+insert into Customer
+values (5,'Gayatri','Dhote','Berlin','Germany',124567387,132456)
+
+--Assignment 1
+
+select * from Customer where Country like 'A%' or Country like 'I%'
+
+select * from Customer where FirstName LIKE '__i%'
